@@ -249,7 +249,7 @@ const Registration = () => {
               </div>
 
               {/* Professional Level */}
-              <div className={styles.professionalOption}>
+              {/* <div className={styles.professionalOption}>
                 <label
                   className={`${styles.professionalLabel} ${
                     formData.level === 'Professional' ? styles.professionalLabelSelected : ''
@@ -271,7 +271,7 @@ const Registration = () => {
                     </p>
                   </div>
                 </label>
-              </div>
+              </div> */}
             </div>
 
             <button
